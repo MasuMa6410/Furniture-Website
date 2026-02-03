@@ -36,8 +36,16 @@ div {
   background-color: #f8f9fa;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 .dark-gray {
   color: rgb(125, 124, 124);
+}
+
+.c-black {
+  color: black;
 }
 
 .bg-green {
@@ -58,6 +66,7 @@ div {
 
 .padding-right {
   padding-right: 0px !important;
+  color: white !important;
 }
 
 body {
@@ -239,3 +248,115 @@ header nav div ul li a:hover {
 }
 
 /* Tagline Section */
+
+#tagline div .service-btn {
+  border-radius: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+/* Read More Section */
+
+#read-more .read-more-boxes {
+  transition: all 0.3s ease;
+}
+
+#read-more .read-more-boxes:hover {
+  background-color: #dde3e1;
+}
+
+#read-more .text-box {
+  padding-right: 3px !important;
+}
+
+#read-more .text-box a {
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+
+#read-more .text-box a:hover {
+  color: #3b5d4f;
+}
+
+/* Testimonials Section */
+
+#testimonial div img {
+  border-radius: 50% !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  font-size: 10px !important;
+  background-color: rgba(59, 93, 79, 0.5);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-prev {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: white;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgb(164, 193, 183);
+}
+
+/* Blog Section */
+
+#blog a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#blog a:hover {
+  color: #3b5d4f;
+}
+
+/* Contact Us Section  */
+
+#contact-us form button {
+  background-color: #3b5d4f !important;
+  color: white !important;
+}
+
+#contact-us img {
+  position: relative;
+  top: -70px;
+  right: -200px;
+  /* transform: translateY(-40px); */
+  z-index: 50;
+}
+
+@media (max-width: 576px) {
+  #contact-us img {
+    position: relative;
+    top: 60px;
+    right: -70px;
+    z-index: 50;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact-us img {
+    position: relative;
+    top: 60px;
+    right: -110px;
+    z-index: 50;
+  }
+}
