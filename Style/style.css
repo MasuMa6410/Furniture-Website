@@ -355,8 +355,68 @@ header nav div ul li a:hover {
 @media (max-width: 768px) {
   #contact-us img {
     position: relative;
-    top: 60px;
+    top: 15px;
     right: -110px;
     z-index: 50;
   }
+}
+
+/* Footer Section */
+
+footer div h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+footer div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer div ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease;
+  margin-bottom: 10px;
+}
+
+footer div ul li a:hover {
+  color: rgba(59, 93, 79) !important;
+  text-shadow: 0px 0px 30px rgba(59, 93, 79) !important;
+}
+
+/* Make footer links match header nav hover + underline animation */
+footer div ul li a {
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+footer div p .round {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+footer div p .round:hover {
+  color: rgb(255, 140, 0);
+  box-shadow: 0 0 10px 2px rgb(255, 140, 0);
+  border-color: rgb(255, 140, 0) !important;
+  cursor: pointer;
+}
+
+footer #footer div .furniture {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer #footer div .furniture:hover {
+  color: #3b5d4f;
 }
